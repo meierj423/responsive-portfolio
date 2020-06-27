@@ -1,0 +1,17 @@
+body {
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png");
+}
+
+#headshot {
+  border: solid;
+  max-width: 155px;
+  text-align: center;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 0.3em;
+}
+
+section {
+  margin-top: -20px;
+}
+

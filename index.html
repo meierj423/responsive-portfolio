@@ -1,94 +1,126 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/style.css" />
 
-    <title>Meier</title>
-</head>
+    <title>Jack Meier's Bio</title>
+  </head>
 
-<body>
-
+  <body style="font-family: 'PT Serif', serif;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <span class="navbar-brand">Jack Meier</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a> 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-
+      <span class="navbar-brand">Jack Meier</span>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >About Me <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+    
 
-    <main>
-        <div class="main p-3 mb-2 bg-light text-dark">
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-10 col-md-8 col-lg-6">
-                            <h1><a class="text-primary">About Me</a></h1>
-                        </div>
-
-                    </div>
-                    <div class="card" style="width: 70%;">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12 col-lg-10 mt-3 mb-2">
-                                    <img class="img-fluid img-thumbnail float-left mt-8 mr-3"
-                                        src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/82288064_10219048584100886_4048944516948819968_n.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=pyJhO311WnMAX-qGcA4&_nc_ht=scontent-lax3-1.xx&oh=facb4d333209d76132558cd264c584ec&oe=5F0832ED"
-                                        alt="Family Photo" height="230" width="230">
-                                    <p>Hello! My name is Jack Meier and I am currently enrolled in UCSD Extension's
-                                        Coding Bootcamp. I served in the U.S. Navy for three years as an Intelligence
-                                        Officer prior to the beginning of the bootcamp. My longtime fascination with
-                                        technology and computers has sparked an interest in me beginning a career in
-                                        software development.</p>
-                                    <p>I was born in Ann Arbor, Michigan and moved a number of times before leaving for
-                                        college. I attended New Mexico Military Institute in Rosewell, New Mexico as a
-                                        prep year before attending the U.S. Naval Academy. I earned my B.S in
-                                        Mathematics from the academy and commissioned as an officer in May 2017.</p>
-                                    <p>My hobbies include going on adventures with my wife whether it is traveling or
-                                        finding a new place to eat in San Diego. I also enjoy running, watching
-                                        sports, reading, cooking/baking, bowling, playing boardgames, and taking our
-                                        puppy, Ollie, out for walks.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
+    <div class="container">
+      <div class="row">
+        <div class="col" style="text-align: center;margin-top: 1em;margin-bottom: 1em;"><h1>About Me</h1></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card" style="margin: 0 auto">
+            <div class="card-body">
+              <figure>
+                <img
+                  id="headshot"
+                  src="/Users/jacksonmeier/Desktop/Bootcamp/homework/hw2/responsive-portfolio/Assets/headshot.png"
+                  alt="Jack Meier's headshot"
+                  class="img-thumbnail"
+                />
+              </figure>
+              <section> 
+                <p>
+                  Hello! My name is Jack Meier and I am currently enrolled in
+                  UCSD Extension's Coding Bootcamp. I served in the U.S. Navy
+                  for three years as an Intelligence Officer prior to the
+                  beginning of the bootcamp. My longtime fascination with
+                  technology and computers has sparked an interest in me
+                  beginning a career in software development.
+                </p>
+                <p>
+                  I was born in Ann Arbor, Michigan and moved a number of times
+                  before leaving for college. I attended New Mexico Military
+                  Institute in Rosewell, New Mexico as a prep year before
+                  attending the U.S. Naval Academy. I earned my B.S in
+                  Mathematics from the academy and commissioned as an officer in
+                  May 2017.
+                </p>
+                <p>
+                  My hobbies include going on adventures with my wife whether it
+                  is traveling or finding a new place to eat in San Diego. I
+                  also enjoy running, watching sports, reading, cooking/baking,
+                  bowling, playing boardgames, and taking our puppy, Ollie, out
+                  for walks.
+                </p>
+              </section>
+            </div>
+          </div>
         </div>
-    </main>
+      </div>
+    </div>
+
+    <footer></footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
