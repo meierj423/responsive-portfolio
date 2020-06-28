@@ -1,13 +1,17 @@
 # responsive-portfolio
 
-This webpage inclues three links: an About Me page, a Portfolio page, and a Contact page.
+This webpage inclues a short bio, a list of a few projects, and a contact page.
 
-1). The About Me page inclues a Navbar with my name in the top left corner along with the links to the other two pages on the top right corner. Also, an image of my family and a short biographer is located within the About Me page.
-
-2). The Portfolio page is where I will be showcasing my future projects. This page also includes an identical Navbar to the About Me page.
-
-3). The Contact page is where viewers of my webpage can give me their name, email address, and a message they would like me to see. Once again, this page includes an identical Navbar to the other two pages.
-
-This is a mobile-first webpage with responsive content.
+    -WHEN the user loads the page, they are presented with the About Me page
+        -The About Me page includes an image of myself, a short bio, and links to my resume as well as my GitHub and LinkedIn profiles.
+        -The user may navigate to either the Portfolio page or the Contact page.
+    -WHEN the users loads the Portfolio page, they are presented with a list of projects I have completed.
+        -Each list item includes the title, screenshot, and links to the respective app.
+    -WHEN the user loads the Contact page, they are presented with a message containing my e-mail and phone number as well as a form to send a message.
 
 See URL to demo site: https://meierj423.github.io/responsive-portfolio/
+
+
+![](about-me-page.png)
+![](portfolio-page.png)
+![](contact-page.png)
